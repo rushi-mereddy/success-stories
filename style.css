@@ -1,0 +1,124 @@
+@import url(https://db.onlinewebfonts.com/c/00d5a78493aed4b11e2584ad7cceee49?family=Gilroy+ExtraBold);
+@import url(https://db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy);
+
+html{
+    scroll-behavior: smooth;
+}
+
+.body{
+    margin: 0 auto;
+}
+
+.banner{
+    background-image: url("components/images/banner_image.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.banner-path{
+    font-size: 12px;
+    padding-top: 100px;
+}
+
+.banner-path a{
+    color: #A1A9B2;
+    text-decoration: none;
+}
+
+.banner-head{
+    padding-top: 6vh;
+    font-family: 'Gilroy ExtraBold' !important;
+    font-weight: 800;
+    font-size: 1.6em;
+    line-height: 100.8%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #35475C;     
+}
+
+.banner-sub-head{
+    width: 45vw;
+    padding-top: 5vh;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #35475C;
+    opacity: 0.8;
+}
+
+.banner-btn{
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    width: 210px;
+    padding: 13px;
+    background: #76B4C8;
+    margin-top: 7vh;
+    margin-right: 1rem;
+    border: none;
+}
+
+.banner-btn:hover{
+    background: #5E98AA;
+}
+
+.sub-head{
+    margin-top: 20px;
+    font-family: 'Gilroy ExtraBold';
+    font-size: 30px;
+    font-weight: 800;
+    color: #35475C;
+    text-transform: uppercase;
+}
+
+.carousel-indicators{
+    position: unset;
+    margin-left: unset;
+}
+
+.c-indicators{
+    width: 144px !important;
+    height: 83px !important;
+    /* background-color: unset; */
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.video-js {
+    width: 631px;
+    height: 357px;
+  }
+
+  .stu-img1{
+    background-color: #C4C4C4;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    width: 200px;
+    height: 220px;
+    text-align: center;
+  }
+
+  .stu-img1 >img{
+    
+  }
+  
+  .stu-right{
+    column-gap: 10px;
+  }
+
+  .stu-right-1{
+    background-color: #35475C;
+    /* transform: matrix(0, 0, 1, 0, 0 ,1); */
+    width: 20px;
+    height: 220px;
+  }
+
+  
