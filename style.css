@@ -85,7 +85,7 @@ html{
 }
 
 .c-indicators{
-    width: 144px !important;
+    width: 103px !important;
     height: 83px !important;
     /* background-color: unset; */
     background-position: center !important;
@@ -101,24 +101,74 @@ html{
   .stu-img1{
     background-color: #C4C4C4;
     transform: matrix(1, 0, 0, 1, 0, 0);
-    width: 200px;
+    width: 214px;
     height: 220px;
     text-align: center;
   }
 
   .stu-img1 >img{
-    
+
   }
   
   .stu-right{
-    column-gap: 10px;
+    column-gap: 15px;
+    
   }
 
   .stu-right-1{
     background-color: #35475C;
     /* transform: matrix(0, 0, 1, 0, 0 ,1); */
-    width: 20px;
+    width: 214px;
     height: 220px;
   }
 
+  .stu-right-head{
+    font-size: 21.51px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .white-tri1{
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    position: fixed;
+    margin-top: -100px ;
+    margin-left: 196px;
+    transform: rotate(45deg);
+  }
+
+  .blue-tri1{
+    width: 20px;
+    height: 20px;
+    background-color: #35475C;
+    position: absolute;
+    margin-top: 105px;
+    margin-left: -18px;
+    transform: rotate(45deg);
+  }
+
+  .white-tri2{
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    position: fixed;
+    margin-top: -120px;
+    margin-left: -26px;
+    transform: rotate(45deg);
+  }
+
+  .blue-tri2{
+    width: 20px;
+    height: 20px;
+    background-color: #35475C;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 188px;
+    transform: rotate(45deg);
+    z-index: 1;
+  }
   
